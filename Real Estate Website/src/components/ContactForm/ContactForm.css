@@ -1,0 +1,67 @@
+.form{
+    width: auto;
+    background-color: var(--blue);
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.form .name{
+    padding-top: 30px;
+}
+.form .name>label{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.form .name>input{
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: var(--blue);
+    color: white;
+    margin: 15px;
+
+}
+
+.form .email>label{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.form .email>input{
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: var(--blue);
+    color: white;
+    margin: 15px;
+
+}
+
+.form .message>label{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.form .message>textarea{
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: var(--blue);
+    color: white;
+    margin: 15px;
+
+}
+.form .btn>button{
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: var(--blue);
+    color: white;
+}
+.form .btn>button:hover{
+    background: white;
+    color: var(--blue);
+    cursor: pointer;
+}
